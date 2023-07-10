@@ -1,0 +1,407 @@
+
+body{
+    background: url("images/body.jpg"); */
+
+}
+
+.body{
+    border-radius: 20px;
+    background: white;
+    margin: auto;
+    width: 80%;
+    height: 560px;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+
+.menu {
+    height: 52px;
+    width: 650px;
+
+    display: inline-block;
+
+    background-image: url("images/body.jpg");
+  /*  box-shadow: -10px -6px 2px 0px green; */
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.links {
+    margin-left: 120px;
+    margin-right: 0px;
+    padding: 14px;
+}
+
+.link {
+
+    border: black solid 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 2px 2px 2px 0px black;
+    background: #ededc5;
+
+
+
+}
+.link:hover{
+
+    color: white;
+    border: white solid 1px;
+    box-shadow: 2px 2px 2px 0px white;
+}
+.a{
+
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 16px;
+    box-shadow: 0px 0px 0px 0px white;
+    background: white;
+    border: white solid 1px;
+
+
+}
+.a:hover{
+    color: dimgray;
+    padding-top: 4px;
+    padding-bottom: 16px;
+    box-shadow: 0px 0px 0px 0px white;
+    background: white;
+    border: white solid 1px;
+
+}
+.ime{
+    display: inline;
+    font-size: 22px;
+    margin-left: 112px;
+    color: black;
+    font-family: cursive;
+
+}
+#s{
+    width: 255px;
+    margin: 40px;
+    border-radius: 94px;
+    margin-left: 154px;
+    border: solid 6px white;
+
+
+}
+.biografija, .obrazovanie, .hobi, .kontakt{
+    margin-top: 20px;
+    height: 470px;
+}
+.biografija .left{
+    background: #d6d7ed;
+    height: 460px;
+    display: inline-block;
+    width: 30%;
+}
+
+.biografija .right{
+    display: inline-block;
+    float: right;
+    width: 60%;
+}
+.biografija .right img{
+    width: 242px;
+    margin-right: 358px;
+    margin-top: 50px;
+}
+.obrazovanie > ul{
+    display: flex;
+    list-style: none;
+background: url("images/book-bgg.jpg") repeat;
+
+}
+.obrazovanie > ul > li{
+    background: beige;
+    margin: 14px;
+    width: 28%;
+    height: 400px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-top-left-radius: 40px;
+}
+.obrazovanie > ul > li > img {
+    width: 152px;
+    border-radius: 104px;
+    display: block;
+    margin-left: 60px;
+}
+
+.obrazovanie p a{
+    color: #283572;
+    width: 200px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+   /* border-bottom: solid 1px #283572;
+    border-right: solid 1px #283572; */
+    box-shadow: 2px 2px 2px 0px gray;
+
+}
+.obrazovanie p a:hover{
+    opacity: 0.5;
+}
+#oou-images{
+    display: flex;
+    list-style: none;
+    margin-left: -38px;
+}
+#oou-images img{
+    width: 80px;
+    margin: 4px;
+    border-radius: 10px;
+    border: white solid;
+}
+.obrazovanie h4{
+    color: #eb6634;
+    text-align: center;
+    font-family: cursive;
+}
+.obrazovanie p{
+    text-align: center;
+}
+#fakultet{
+  /*  background: #e7f3ff; */
+    border: solid #e7f3ff 8px;
+    background: white;
+}
+#osnovno{
+   /* background: #e8f98c; */
+    border: solid #f5ffbc 8px;
+    /* background: #f5ffbc; */
+    background: white;
+}
+#sredno{
+   /* background: #ffe5fd;*/
+    border: solid #ffe5fd 8px;
+    background: white;
+}
+.ime{
+    margin-left: 404px;
+}
+.footer{
+    background: beige;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px ;
+}
+.biografija p{
+    font-size: 20px;
+    width: 400px;
+}
+#imeprezime{
+    font-size: 40px;
+    display: block;
+    font-family: cursive;
+    color: #a92b17;
+}
+.biografija p:nth-of-type(1){
+    padding: 20px;
+    background: #8ff1ad;
+    color: black;
+    margin-left: -18px;
+    border-bottom-right-radius: 176px;
+    display: inline-block;
+}
+.biografija p:nth-of-type(2){
+    background: #d3e95c;
+    display: inline-block;
+    width: 212px;
+    text-align: right;
+    padding: 28px;
+    border-top-left-radius: 103px;
+    float: right;
+    margin-top: -57px;
+    margin-right: 34px;
+}
+.biografija a{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+.biografija a:hover{
+    text-decoration: white;
+    color: white;
+}
+.hobi{
+    background: url("images/bghobi.jpg");
+
+}
+.hobi #images img{
+    width: 260px;
+    height: 162px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: #f1f1f1 solid 8px;
+}
+.hobi #images{
+    display: flex;
+    list-style: none;
+    margin-left: -58px;
+
+}
+#gore, #dolu{
+    display: flex;
+list-style: none;
+    width: 720px;
+    justify-content: space-between;
+    text-align: center;
+}
+#gore > li, #dolu > li{
+   /* background: #d6d7ed;
+
+/*  background: url("images/hobifilm.jpg");
+    opacity: 0.4; */
+background: #f1f1f1;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px 2px #061c3c;
+}
+#dolu{
+    margin-top: -196px;
+    margin-left: 249px;
+}
+#gore  p, #dolu  p{
+    width: 166px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+.hobi-img {
+    display: flex;
+    list-style: none;
+    margin-left: -20px;
+}
+.hobi-img li img{
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+}
+.hobi-img li img:hover{
+
+    zoom: 1.2;
+
+}
+#bg1{
+    background: url("images/kontaktbg1.jpg") no-repeat;
+    width: 1060px;
+    height: 176px;
+}
+#bg2{
+    background: white;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: -120px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid cornflowerblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 8px;
+
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+input[type=submit]:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+#levo {
+    background: #ededc5;
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
+
+}
+ #write{
+     width: 400px;
+     height: 70px;
+     border-radius: 20px;
+
+ }
+
+ #kontaktdesno{
+
+     width: 40%;
+     height: 350px;
+     display: inline-block;
+     margin-left: 16px;
+
+
+ }
+ #img{
+     background: url("images/kontaktimg.webp") no-repeat;
+     width: 290px;
+     height: 160px;
+     background-size: contain;
+     margin-top: 24px;
+     margin-left: 20px;
+    border-bottom: solid blue;
+
+ }
+
+ #kontaktdesno ul{
+     list-style: none;
+     display: table;
+
+ }
+#kontaktdesno ul li{
+
+
+    height: 60px;
+    background-size: contain;
+}
+#kontaktdesno ul li a:nth-of-type(2){
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+#kontaktdesno ul li a:hover{
+    opacity: 0.5;
+
+}
+.c{
+
+    display: flex;
+    list-style: none;
+    width: 80px;
+    justify-content: space-around;
+    float: right;
+    position: relative;
+    top: -10px;
+    right: 325px;
+}
+.c a:hover{
+
+position: relative;
+    bottom: 8px;
+}
